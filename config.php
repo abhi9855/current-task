@@ -4,7 +4,7 @@
     $password = "123456";*/
     error_reporting(E_ALL);
 
-    $conn = mysqli_connect($servername="localhost", $username= "root", $password= "root1234",$dbname="liqroo");//$dbname="php"
+    $conn = mysqli_connect($servername="localhost", $username= "root", $password= "root1234",$dbname="db_liqroo_latest");//$dbname="php"
     
     if ($conn->connect_error)
     {
