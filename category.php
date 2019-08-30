@@ -7,7 +7,7 @@
     $name=$_POST['name']; 
     // mysql_query("INSERT INTO category (name,p_cid) VALUES('$name','$p_cid') ") or die(mysql_error()); 
  } 
-
+$cat->cat_list();
 ?>
 
 

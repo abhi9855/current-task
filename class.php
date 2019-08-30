@@ -2,7 +2,7 @@
     class cat{
         public $child_cat_cid;
         function cat_list($p_cid=0,$space=''){
-            $q="SELECT * FROM category WHERE p_cid='$p_cid'";
+            $q="SELECT * FROM categories";
             $r=mysql_query($q) or die(mysql_error());
             
             $count=mysql_num_rows($r);
