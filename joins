@@ -11,7 +11,7 @@ SELECT A.id,A.display_name,B.name as BrandName, D.name as categoryName, A.info_t
 
 
 
-
+git clone https://abhi9855@bitbucket.org/leftclq/project-liqroo-marketplace-api.git
 
 
 
