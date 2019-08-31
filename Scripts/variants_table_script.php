@@ -21,21 +21,19 @@ while ($row=mysqli_fetch_array($exe1)) {
 	// $pack_id=$row['pack_id'];
 	// echo "<pre>".$variant_id;
 }
-// echo "<pre>";
-// print_r($variant_id);
-// die;
-$sql="SELECT * FROM packs";
-$exe2=mysqli_query($conn,$sql);
-$pack_id=[];
-while ($row=mysqli_fetch_array($exe2)) {
-	$pack_id[]=$row['id'];
-	// $pack_id=$row['pack_id'];
-	// echo "<pre>".$pack_id;
-}
-$i=0;
-$j=0;
 
-$sql="SELECT * FROM product_list_liqlive_updated";
+// $sql="SELECT * FROM packs";
+// $exe2=mysqli_query($conn,$sql);
+// $pack_id=[];
+// while ($row=mysqli_fetch_array($exe2)) {
+// 	$pack_id[]=$row['id'];
+// 	// $pack_id=$row['pack_id'];
+// 	// echo "<pre>".$pack_id;
+// }
+// $i=0;
+// $j=0;
+
+$sql="SELECT * FROM copy_tbl_products";
 $exe=mysqli_query($conn,$sql);
 while ($row=mysqli_fetch_array($exe)) {
 
@@ -72,10 +70,10 @@ while ($row=mysqli_fetch_array($exe)) {
 	    	}
 	    }	
     }*/
-$i++;
-$j++;
-	$i = ($i==155) ? 0 : $i;
-	$j = ($j==42) ? 0 : $j;
+// $i++;
+// $j++;
+// 	$i = ($i==155) ? 0 : $i;
+// 	$j = ($j==42) ? 0 : $j;
 }
 
 ?>
